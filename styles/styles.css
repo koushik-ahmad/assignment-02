@@ -13,3 +13,135 @@
     font-family: 'Miama', sans-serif;
     font-weight: 800;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* shared styles */
+.display-flex {
+    display: flex;
+}
+
+.btn-primary {
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+
+}
+
+.btn-outline {
+    padding: 16px 40px 16px 40px;
+    border: 2px solid rgb(255, 255, 255);
+    background: rgb(82, 81, 81);
+    border-radius: 42px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+/* navbar related styles */
+/* .bg {
+    background: rgb(0, 0, 0);
+} */
+
+.bg-dark {
+    background: linear-gradient(180.00deg,
+            rgb(17, 17, 17),
+            rgba(119, 119, 119, 0) 300%);
+}
+
+.navbar {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 50px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-header {
+    font-style: italic;
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 40px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.nav-links {
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+
+.btn-home {
+    padding: 8px 20px 8px 20px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+}
+
+/* banner related styles  */
+.banner {
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    width: 520px;
+    height: 282px;
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.sub-title {
+    font-family: 'Miama';
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 0%;
+    letter-spacing: 0%;
+}
+
+.description {
+    width: 520px;
+    height: 48px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin: 28px 0px;
+}
+
+.banner-btn {
+    display: flex;
+    gap: 20px;
+}
+
+img{
+    width: 100%;
+}
