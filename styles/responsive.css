@@ -1,0 +1,111 @@
+/* responsive mobile devices */
+@media screen and (max-width:576px) {
+    .nav-links {
+        display: none;
+    }
+
+    .navbar {
+        margin: 0px 10px;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .btn-primary,
+    .btn-outline {
+        padding: 16px 40px 16px 40px;
+        font-size: 15px;
+    }
+
+    .banner {
+        flex-direction: column;
+        padding-left: 10px;
+        height: 950px;
+        align-items: center;
+    }
+
+    .banner img {
+        max-width: 100%;
+        bottom: 230px;
+        left: -30px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .box-shadow {
+        right: -10px;
+    }
+
+    .box-shadow2 {
+        left: 210px;
+    }
+
+    .run {
+        flex-direction: column;
+    }
+
+    .select-style2 {
+        width: 65%;
+    }
+
+    .bmi-div {
+        margin-left: 10px;
+    }
+
+    .bmi-calculator-container {
+        flex-direction: column;
+    }
+
+    .select-style2 {
+        width: 90%;
+    }
+
+    .team-member-box,
+    .change-card,
+    .news-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-align {
+        flex-direction: column;
+        gap: 10px;
+        margin: 0px 10px;
+    }
+}
+
+
+/* responsive tablet device  */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .navbar {
+        margin: 0px 10px;
+    }
+
+    .banner {
+        flex-direction: column;
+        padding-left: 10px;
+        height: 1020px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bmi-calculator-container {}
+
+
+
+    .change-card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team-member-box,
+    .news-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-align {
+        margin: 0px 10px;
+    }
+
+}

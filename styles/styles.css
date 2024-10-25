@@ -92,6 +92,10 @@
     border-radius: 39px;
 }
 
+.hamburger-menu {
+    display: none;
+}
+
 .btn-home {
     padding: 8px 20px 8px 20px;
     border-radius: 46px;
@@ -108,14 +112,14 @@
 }
 
 .into {
-    padding-top: 60px;
+    padding-top: 20px;
 }
 
 .title {
-    width: 520px;
-    height: 282px;
+    width: 100%;
+    /* height: 100%; */
     color: rgb(255, 255, 255);
-    font-size: 78px;
+    font-size: 70px;
     font-weight: 900;
     line-height: 120%;
     letter-spacing: 0%;
@@ -130,8 +134,8 @@
 }
 
 .description {
-    width: 520px;
-    height: 48px;
+    width: 100%;
+    /* height: 48px; */
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
     font-weight: 400;
@@ -142,7 +146,7 @@
 
 .banner-btn {
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
 .box-shadow {
@@ -159,7 +163,7 @@
     border: 1px solid gray;
     position: relative;
     bottom: 145px;
-    right: 50px;
+    right: 35px;
 }
 
 .box-shadow2 {
@@ -172,7 +176,7 @@
     border: 1px solid gray;
     position: relative;
     bottom: 512px;
-    left: 220px;
+    left: 210px;
 }
 
 .option {
@@ -205,8 +209,15 @@
     padding-top: 70px;
 }
 
+.changes {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
 .change-card {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
     gap: 80px;
     align-items: center;
     justify-content: center;
@@ -284,7 +295,7 @@
 }
 
 .run-content {
-    width: 443px;
+    width: 100%;
     height: 290px;
 }
 
@@ -306,14 +317,13 @@
 }
 
 .run-img img {
-    width: 366px;
+    width: 100%;
     height: 312px;
     border-radius: 18px;
 }
 
 
 /* Trainings and Exercises section */
-
 
 
 /* BMI section */
@@ -353,22 +363,30 @@ td {
     gap: 90px;
 }
 
+.h-w-bmt,
+.age {
+    display: flex;
+    width: 90%;
+}
+
 .input-style {
     padding: 8px 14px;
     border-radius: 5px;
-    width: 200px;
+    width: 45%;
     border: 0;
     background-color: #FFFFFF1A;
     color: white;
+    margin: 4px;
 }
 
 .select-style {
     padding: 8px 14px;
     border-radius: 5px;
     border: 0;
-    width: 229px;
+    width: 50%;
     background-color: #FFFFFF1A;
     color: #FFFFFF99;
+    margin: 4px;
 }
 
 .select-style2 {
@@ -376,7 +394,8 @@ td {
     margin-top: 10px;
     border-radius: 5px;
     border: 0;
-    width: 462px;
+    width: 90%;
+    margin-right: 10%;
     background-color: #FFFFFF1A;
     color: #FFFFFF99;
 }
@@ -499,7 +518,7 @@ td {
 /* footer section */
 .footer {
     width: 100%;
-    height: 489px;
+    /* height: 489px; */
     background: rgb(17, 16, 16);
 }
 
@@ -516,7 +535,7 @@ td {
     font-weight: 800;
     line-height: 120%;
     letter-spacing: 0%;
-    text-align: left;
+    /* text-align: left; */
 }
 
 .footer-subtitle {
@@ -539,11 +558,8 @@ td {
     text-align: left;
 }
 
-.services {
-    margin-left: -70px;
-}
-
 .footer-align {
+    display: flex;
     justify-content: space-between;
 }
 
@@ -571,7 +587,7 @@ td {
     line-height: 24px;
     letter-spacing: 0.3px;
     text-align: center;
-    margin-top: 50px;
+    padding: 50px 0px;
 }
 
 /* footer end  */
