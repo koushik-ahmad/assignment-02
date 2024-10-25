@@ -34,7 +34,6 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
-
 }
 
 .btn-outline {
@@ -317,12 +316,134 @@
 
 
 
-/* BMI Calculator section */
+/* BMI section */
+.bmi-div {
+    max-width: 800px;
+    margin: 0 auto;
+}
 
+.bmi-section {
+    margin-top: 30px;
+}
+
+td,
+th {
+    border: 1px solid #6b6969;
+    text-align: left;
+    padding: 10px 50px 10px 10px;
+}
+
+table {
+    border-collapse: collapse;
+    max-width: 500px;
+}
+
+td {
+    font-size: 13px;
+    color: #949292;
+}
+
+.bmi-calculator-container {
+    display: flex;
+    margin-top: 50px;
+    max-width: 100%;
+    background-color: #222222;
+    padding: 40px;
+    justify-content: space-evenly;
+    gap: 60px;
+}
+
+.input-style {
+    padding: 8px 14px;
+    border-radius: 5px;
+    width: 200px;
+    border: 0;
+    background-color: #FFFFFF1A;
+    color: white;
+}
+
+.select-style {
+    padding: 8px 14px;
+    border-radius: 5px;
+    border: 0;
+    width: 229px;
+    background-color: #FFFFFF1A;
+    color: #FFFFFF99;
+}
+
+.select-style2 {
+    padding: 8px 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 0;
+    width: 462px;
+    background-color: #FFFFFF1A;
+    color: #FFFFFF99;
+}
+
+.option-style {
+    background: rgb(68, 68, 68);
+}
+
+.btn-bmi {
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+}
 
 
 /* Meet Our Team section  */
+.team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+}
 
+.img-class {
+    width: 325px;
+    height: 270px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.text-item {
+    position: absolute;
+    z-index: 1;
+    margin-left: 20px;
+    margin-top: 200px;
+}
+
+.team-member-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #FFFFFF1A;
+    gap: 20px;
+    padding: 20px;
+    margin: 40px 0px;
+}
+
+.meet-title {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-top: 15px;
+}
+
+.meet-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 300;
+}
 
 
 /* unique section */
